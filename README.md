@@ -1,9 +1,9 @@
-# Robust reduced-order model predictive control: Peak-to-peak gain & filtered signals
+# Robust reduced-order model predictive control
 
 ## Description
 
 This repository contains the MATLAB code that accompanies the paper 
->  Johannes Köhler, Carlo Scholz, Melanie Zeilinger "Robust reduced-order model predictive control: Peak-to-peak gain & filtered signals", 2025, [Add arXiv link](https://arxiv.org/abs/xxxx.xxxxx).
+>  Johannes Köhler, Carlo Scholz, Melanie Zeilinger "Robust reduced-order model predictive control", 2025, [Add arXiv link](https://arxiv.org/abs/xxxx.xxxxx).
 
 
 ## Prerequisites
