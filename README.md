@@ -15,9 +15,9 @@ This repository contains the MATLAB code that accompanies the paper
 
 ## Usage
 
-* Run `main.m` to set up the model,
-* generate the reduced-order model,
-* analyse the peak-to-peak gain,
-* solve MPC problem,
-* and generate plots.
+Run `main.m` to set up the model,
+generate the reduced-order model,
+analyse the peak-to-peak gain,
+solve MPC problem,
+and generate plots.
  
