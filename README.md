@@ -3,7 +3,7 @@
 ## Description
 
 This repository contains the MATLAB code that accompanies the paper 
->  Johannes Köhler, Carlo Scholz, Melanie Zeilinger "Robust reduced-order model predictive control", 2025, [Add arXiv link](https://arxiv.org/abs/xxxx.xxxxx).
+>  Johannes Köhler, Carlo Scholz, Melanie Zeilinger "Robust reduced-order model predictive control using peak-to-peak analysis of filtered signals", 2025, [Add arXiv link](https://arxiv.org/abs/2511.03002).
 
 
 ## Prerequisites
