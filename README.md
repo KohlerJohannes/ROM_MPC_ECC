@@ -21,3 +21,4 @@ analyse the peak-to-peak gain,
 solve MPC problem,
 and generate plots.
  
+![Robust prediction with reduced-order model](OCP_ROM.png)
