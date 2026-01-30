@@ -1,21 +1,24 @@
-# A model-free approach to control barrier functions for high order systems
+# Robust reduced-order model predictive control
 
 ## Description
 
 This repository contains the MATLAB code that accompanies the paper 
- "A model-free approach to control barrier functions for high order
-systems", 2026, [ArXiv link](https://arxiv.org/...).
+>  Johannes Köhler, Carlo Scholz, Melanie Zeilinger "Robust reduced-order model predictive control using peak-to-peak analysis of filtered signals", 2025, [ArXiv link](https://arxiv.org/abs/2511.03002).
 
 
 ## Prerequisites
 
 - [MATLAB](https://de.mathworks.com/products/matlab.html)  
-- [Casdadi](https://uk.mathworks.com/products/robotics.html)  
+- [YALMIP](https://yalmip.github.io/)  
+- [Mosek](https://www.mosek.com/)  
+- [Casdadi](https://web.casadi.org/)  
 
 ## Usage
+Run `main.m` to set up the model,
+generate the reduced-order model,
+analyse the peak-to-peak gain,
+solve MPC problem,
+and generate plots.
 
-Run `main.m` to run simulations; where you can toggle on the CBF or run a pure funnel controller
-`setup.m` loads the robot dyanmics, designs initial and final configuration and makes corresponding plot
-`makeplots.m` generate the plots and provides quantitative metrics
- 
-![Initial and final configuation of robot](robot.png)
+![Robust prediction with reduced-order model](OCP_ROM.png)
+
